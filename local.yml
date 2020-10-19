@@ -1,6 +1,6 @@
 
 - hosts: client
-  connection: local
+  connection_connection: local
   become: true
   tasks:
   - name: install htop
